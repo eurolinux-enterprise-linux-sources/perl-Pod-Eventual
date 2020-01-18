@@ -1,6 +1,6 @@
 Name:           perl-Pod-Eventual
 Version:        0.093330
-Release:        11%{?dist}
+Release:        12%{?dist}
 Summary:        Read a POD document as a series of trivial events
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -72,6 +72,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.093330-12
+- Mass rebuild 2013-12-27
+
 * Thu Oct 25 2012 Petr Pisar <ppisar@redhat.com> - 0.093330-11
 - Correct dependencies
 
